@@ -1,4 +1,4 @@
-FILEPATH = 'C:/Users\LATITUDE E5480/Desktop/pythonProject/pythonProject/web_app1/todo.data.txt'
+FILEPATH = 'C:/Users/LATITUDE E5480\Desktop/pythonProject/pythonProject/web_app1/todo.data.txt'
 
 
 def get_todos(filepath=FILEPATH):
@@ -12,5 +12,5 @@ def get_todos(filepath=FILEPATH):
 
 def write_todos(todos_arg, filepath=FILEPATH):
     """ Write the to-do items list in the text file."""
-    with open('C:/Users\LATITUDE E5480/Desktop/pythonProject/pythonProject/web_app1/todo.data.txt', 'w') as file:
+    with open('pythonProject/pythonProject/web_app1/todo.data.txt', 'w') as file:
         file.writelines(todos_arg)
